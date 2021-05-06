@@ -53896,16 +53896,6 @@
       "krosylight"
     ]
   },
-  "Web/API/HTMLMediaElement/initialTime": {
-    "modified": "2020-10-15T21:38:08.828Z",
-    "contributors": [
-      "teoli",
-      "fscholz",
-      "Jedipedia",
-      "Sebastianz",
-      "markg"
-    ]
-  },
   "Web/API/HTMLMediaElement/load": {
     "modified": "2020-10-15T22:09:51.481Z",
     "contributors": [
@@ -81478,13 +81468,6 @@
     "contributors": [
       "Sheppy",
       "sideshowbarker",
-      "fscholz",
-      "jpmedley"
-    ]
-  },
-  "Web/API/StaticRange/toRange": {
-    "modified": "2020-10-15T21:59:08.980Z",
-    "contributors": [
       "fscholz",
       "jpmedley"
     ]
@@ -149865,16 +149848,6 @@
       "eduardoboucas",
       "chrisdavidmills",
       "andradei",
-      "realityking",
-      "teoli"
-    ]
-  },
-  "Web/JavaScript/Reference/Global_Objects/WeakSet/clear": {
-    "modified": "2020-10-15T21:26:42.658Z",
-    "contributors": [
-      "fscholz",
-      "Alhadis",
-      "claudepache",
       "realityking",
       "teoli"
     ]

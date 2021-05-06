@@ -24,8 +24,19 @@ browser-compat: javascript.builtins.TypedArray.sort
 
 <h2 id="Syntax">Syntax</h2>
 
-<pre
-  class="brush: js"><var>typedarray</var>.sort([<var>compareFunction</var>])</pre>
+<pre class="brush: js">
+// Functionless
+sort()
+
+// Arrow function
+sort((firstEl, secondEl) => { ... } )
+
+// Compare function
+sort(compareFn)
+
+// Inline compare function
+sort(function compareFn(firstEl, secondEl) { ... })
+</pre>
 
 <h3 id="Parameters">Parameters</h3>
 
@@ -61,19 +72,7 @@ numbers.sort((a, b) =&gt; a - b); // compare numbers
 
 <h2 id="Specifications">Specifications</h2>
 
-<table class="standard-table">
-  <thead>
-    <tr>
-      <th scope="col">Specification</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>{{SpecName('ESDraft', '#sec-%typedarray%.prototype.sort',
-        'TypedArray.prototype.sort')}}</td>
-    </tr>
-  </tbody>
-</table>
+{{Specifications}}
 
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 

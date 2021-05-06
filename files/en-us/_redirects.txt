@@ -4755,7 +4755,6 @@
 /en-US/docs/JavaScript/Reference/Global_Objects/Object/valueOf	/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf
 /en-US/docs/JavaScript/Reference/Global_Objects/Object/valueOf-redirect-1	/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf
 /en-US/docs/JavaScript/Reference/Global_Objects/Proxy	/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
-/en-US/docs/JavaScript/Reference/Global_Objects/Proxy{{template("Non-standard_heade	/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy
 /en-US/docs/JavaScript/Reference/Global_Objects/RangeError	/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError
 /en-US/docs/JavaScript/Reference/Global_Objects/RangeError/prototype	/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError
 /en-US/docs/JavaScript/Reference/Global_Objects/ReferenceError	/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError
@@ -6085,7 +6084,6 @@
 /en-US/docs/Mozilla/Developer_guide/YouCompleteMe	https://github.com/mdn/archived-content/tree/main/files/en-us/mozilla/developer_guide/youcompleteme
 /en-US/docs/Mozilla/Developer_guide/mach	https://github.com/mdn/archived-content/tree/main/files/en-us/mozilla/developer_guide/mach
 /en-US/docs/Mozilla/Developer_guide/mozilla-central	https://github.com/mdn/archived-content/tree/main/files/en-us/mozilla/developer_guide/mozilla-central
-/en-US/docs/Mozilla/Firefox/Privacy/State_Partitioning	https://github.com/mdn/archived-content/tree/main/files/en-us/mozilla/firefox/privacy/state_partitioning
 /en-US/docs/Mozilla/Firefox/Releases/36/Site_Compatibility_for_Firefox_36	/en-US/docs/Mozilla/Firefox/Releases/36/Site_Compatibility
 /en-US/docs/Mozilla/Firefox/Releases/Firefox_23_for_developers	/en-US/docs/Mozilla/Firefox/Releases/23
 /en-US/docs/Mozilla/Firefox/Releases/Firefox_41_for_developers	/en-US/docs/Mozilla/Firefox/Releases/41
@@ -6787,9 +6785,9 @@
 /en-US/docs/The_XSLT_JavaScript_Interface_in_Gecko:Setting_Parameters	/en-US/docs/Web/XSLT/XSLT_JS_interface_in_Gecko/Setting_Parameters
 /en-US/docs/The_add-on_bar	/en-US/docs/Mozilla/Firefox/Releases/4/The_add-on_bar
 /en-US/docs/The_data_URL_scheme	/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs
-/en-US/docs/Thunderbird/Autoconfiguration	/en-US/docs/Mozilla/Thunderbird/Autoconfiguration
-/en-US/docs/Thunderbird/Autoconfiguration/FileFormat/Definition	/en-US/docs/Mozilla/Thunderbird/Autoconfiguration/FileFormat/Definition
-/en-US/docs/Thunderbird/Autoconfiguration/FileFormat/HowTo	/en-US/docs/Mozilla/Thunderbird/Autoconfiguration/FileFormat/HowTo
+/en-US/docs/Thunderbird/Autoconfiguration	https://github.com/mdn/archived-content/tree/main/files/en-us/mozilla/thunderbird/autoconfiguration
+/en-US/docs/Thunderbird/Autoconfiguration/FileFormat/Definition	https://github.com/mdn/archived-content/tree/main/files/en-us/mozilla/thunderbird/autoconfiguration/fileformat/definition
+/en-US/docs/Thunderbird/Autoconfiguration/FileFormat/HowTo	https://github.com/mdn/archived-content/tree/main/files/en-us/mozilla/thunderbird/autoconfiguration/fileformat/howto
 /en-US/docs/Tips_for_Authoring_Fast-loading_HTML_Pages	/en-US/docs/Learn/HTML/Howto/Author_fast-loading_HTML_pages
 /en-US/docs/Toolbox	/en-US/docs/Tools/Tools_Toolbox
 /en-US/docs/Tools/DOM_Inspector	/en-US/docs/Tools/DOM_Property_Viewer
@@ -12329,5 +12327,3 @@
 /en-US/docs/xml:base	/en-US/docs/Web/XML/xml:base
 /en-US/docs/zh-n/JavaScript/Reference/Global_Objects/String/quote	/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/quote
 /en-US/docs/zh_cn	/zh-CN/docs/Web
-/en-US/docs/{{domxref("/Input.setSelectionRange	/en-US/docs/Web/API/HTMLInputElement/setSelectionRange
-/en-US/docs/{{domxref("/TouchList.item	/en-US/docs/Web/API/TouchList/item
