@@ -12,12 +12,15 @@ tags:
   - Web Payments
   - payment
   - retry
+browser-compat: api.PaymentResponse.retry
 ---
 <p>{{securecontext_header}}{{APIRef("Payment Request API")}}</p>
 
-<p><span class="seoSummary">The {{domxref("PaymentResponse")}} interface's
+<p>The {{domxref("PaymentResponse")}} interface's
     <code><strong>retry()</strong></code> method makes it possible to ask the user to
-    retry a payment after an error occurs during processing.</span> This lets your app
+    retry a payment after an error occurs during processing.</p>
+
+<p>This lets your app
   gracefully deal with situations such as invalid shipping addresses or declined credit
   cards.</p>
 
@@ -97,10 +100,7 @@ tags:
 
 <h2 id="Examples">Examples</h2>
 
-<p><u><strong>try { await paymentRequest.retry(errorFields); } catch (DOMException err) {
-      ... }</strong></u></p>
-
-<pre class="brush: JS">async function doPaymentRequest() {
+<pre class="brush: js">async function doPaymentRequest() {
   const request = new PaymentRequest(methodData, details, options);
   const response = await request.show();
   await recursiveValidate(request, response);
@@ -148,24 +148,11 @@ doPaymentRequest();
 
 <h2 id="Specifications">Specifications</h2>
 
-<table class="standard-table">
-  <tbody>
-    <tr>
-      <th scope="col">Specification</th>
-      <th scope="col">Status</th>
-      <th scope="col">Comment</th>
-    </tr>
-    <tr>
-      <td>{{SpecName('Payment','#dom-paymentresponse-retry','retry()')}}</td>
-      <td>{{Spec2('Payment')}}</td>
-      <td>Initial definition.</td>
-    </tr>
-  </tbody>
-</table>
+{{Specifications}}
 
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 
-<p>{{Compat("api.PaymentResponse.retry")}}</p>
+<p>{{Compat}}</p>
 
 <h2 id="See_also">See also</h2>
 

@@ -34,7 +34,7 @@ tags:
   &lt;legend&gt;Planet information&lt;/legend&gt;
   &lt;label for="planetsSelect"&gt;Planet:&lt;/label&gt;
   &lt;select id="planetsSelect" aria-controls="planetInfo"&gt;
-    &lt;option value=""&gt;Select a planet&amp;hellip;&lt;/option&gt;
+    &lt;option value=""&gt;Select a planet…&lt;/option&gt;
     &lt;option value="mercury"&gt;Mercury&lt;/option&gt;
     &lt;option value="venus"&gt;Venus&lt;/option&gt;
     &lt;option value="earth"&gt;Earth&lt;/option&gt;
@@ -129,7 +129,7 @@ renderPlanetInfoButton.addEventListener('click', event =&gt; {
   </tr>
   <tr>
    <td>alert</td>
-   <td>Error or warning message that flashes on the screen. Alerts are particularly important for client side validation notices to users. (TBD: link to ARIA form tutorial with aria info)</td>
+   <td>Error or warning message that flashes on the screen. Alerts are particularly important for client side validation notices to users. <a href="https://www.w3.org/TR/wai-aria-practices/examples/alert/alert.html">Alert Example.</a></td>
    <td>To maximize compatibility, some people recommend adding a redundant <code>aria-live="assertive"</code> when using this role. However, adding both <code>aria-live</code> and <code>role="alert"</code> causes double speaking issues in VoiceOver on iOS.</td>
   </tr>
   <tr>

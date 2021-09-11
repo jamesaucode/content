@@ -6,10 +6,11 @@ tags:
   - Interface
   - Reference
   - TrustedScript
+browser-compat: api.TrustedScript
 ---
 <div>{{DefaultAPISidebar("Trusted Types API")}}</div>
 
-<p class="summary">The <strong><code>TrustedScript</code></strong> interface of the {{domxref('Trusted Types API')}} represents a string with an uncompiled script body that a developer can insert into an <a href="/en-US/docs/Web/API/Trusted_Types_API#injection_sinks">injection sink</a> that might execute the script. These objects are created via {{domxref("TrustedTypePolicy.createScript","TrustedTypePolicy.createScript()")}} and therefore have no constructor.</p>
+<p>The <strong><code>TrustedScript</code></strong> interface of the {{domxref('Trusted Types API')}} represents a string with an uncompiled script body that a developer can insert into an <a href="/en-US/docs/Web/API/Trusted_Types_API#injection_sinks">injection sink</a> that might execute the script. These objects are created via {{domxref("TrustedTypePolicy.createScript","TrustedTypePolicy.createScript()")}} and therefore have no constructor.</p>
 
 <p>The value of a <strong>TrustedScript</strong> object is set when the object is created and cannot be changed by JavaScript as there is no setter exposed.</p>
 
@@ -32,26 +33,11 @@ console.log(sanitized); /* a TrustedScript object */
 
 <h2 id="Specifications">Specifications</h2>
 
-<table class="standard-table">
-  <tbody>
-   <tr>
-    <th scope="col">Specification</th>
-    <th scope="col">Status</th>
-    <th scope="col">Comment</th>
-   </tr>
-   <tr>
-    <td>{{SpecName('Trusted Types','#trusted-script','TrustedScript')}}</td>
-    <td>{{Spec2('Trusted Types')}}</td>
-    <td>Initial definition.</td>
-   </tr>
-  </tbody>
- </table>
+{{Specifications}}
 
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 
-<div class="hidden">The compatibility table in this page is generated from structured data. If you'd like to contribute to the data, please check out <a href="https://github.com/mdn/browser-compat-data">https://github.com/mdn/browser-compat-data</a> and send us a pull request.</div>
-
-<p>{{Compat("api.TrustedScript")}}</p>
+<p>{{Compat}}</p>
 
 <h2 id="See_also">See also</h2>
 

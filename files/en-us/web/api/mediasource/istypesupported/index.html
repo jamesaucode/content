@@ -14,13 +14,16 @@ tags:
   - Static Method
   - Video
   - isTypeSupported
+browser-compat: api.MediaSource.isTypeSupported
 ---
 <div>{{APIRef("Media Source Extensions")}}</div>
 
-<p><span class="seoSummary">The
+<p>The
     <code><strong>MediaSource.isTypeSupported()</strong></code> static method returns a
-    {{jsxref("Boolean")}} value which is <code>true</code> if the given MIME type is
-    <em>likely</em> to be supported by the current {{Glossary("user agent")}}.</span> That
+    boolean value which is <code>true</code> if the given MIME type is
+    <em>likely</em> to be supported by the current {{Glossary("user agent")}}.</p>
+
+<p>That
   is, if it can successfully create {{domxref("SourceBuffer")}} objects for that MIME
   type. If the returned value is <code>false</code>, then the user agent is certain that
   it <em>cannot</em> access media of the specified format.</p>
@@ -41,7 +44,7 @@ tags:
 
 <h3 id="Return_value">Return value</h3>
 
-<p>A {{jsxref("Boolean")}} which is <code>true</code> if the browser feels that it can
+<p>A boolean value which is <code>true</code> if the browser feels that it can
   <em>probably</em> play media of the specified type. This is <em>not</em> a guarantee,
   however, and your code must be prepared for the possibility that the media will not play
   correctly if at all. A value of <code>false</code> is a guarantee that media of the
@@ -61,7 +64,7 @@ tags:
     the source</a> for further investigation.)</p>
 
 <pre
-  class="brush: js  language-js">var assetURL = 'frag_bunny.mp4';
+  class="brush: js ">var assetURL = 'frag_bunny.mp4';
 // Need to be specific for Blink regarding codecs
 // ./mp4info frag_bunny.mp4 | grep Codec
 var mimeCodec = 'video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;';
@@ -91,25 +94,11 @@ function sourceOpen (_) {
 
 <h2 id="Specifications">Specifications</h2>
 
-<table class="standard-table">
-  <tbody>
-    <tr>
-      <th scope="col">Specification</th>
-      <th scope="col">Status</th>
-      <th scope="col">Comment</th>
-    </tr>
-    <tr>
-      <td>{{SpecName('Media Source Extensions', '#dom-mediasource-istypesupported',
-        'isTypeSupported()')}}</td>
-      <td>{{Spec2('Media Source Extensions')}}</td>
-      <td>Initial definition.</td>
-    </tr>
-  </tbody>
-</table>
+{{Specifications}}
 
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 
-<p>{{Compat("api.MediaSource.isTypeSupported")}}</p>
+<p>{{Compat}}</p>
 
 <h2 id="See_also">See also</h2>
 

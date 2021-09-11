@@ -8,10 +8,11 @@ tags:
   - Games
   - Graphics
   - Reference
+browser-compat: api.CanvasRenderingContext2D
 ---
 <div>{{APIRef}}</div>
 
-<p><span class="seoSummary">The <code><strong>CanvasRenderingContext2D</strong></code> interface, part of the <a href="/en-US/docs/Web/API/Canvas_API">Canvas API</a>, provides the 2D rendering context for the drawing surface of a {{HTMLElement("canvas")}} element. It is used for drawing shapes, text, images, and other objects.</span></p>
+<p>The <code><strong>CanvasRenderingContext2D</strong></code> interface, part of the <a href="/en-US/docs/Web/API/Canvas_API">Canvas API</a>, provides the 2D rendering context for the drawing surface of a {{HTMLElement("canvas")}} element. It is used for drawing shapes, text, images, and other objects.</p>
 
 <p>See the interface's properties and methods in the sidebar and below. The <a href="/en-US/docs/Web/API/Canvas_API/Tutorial" title="Canvas tutorial">Canvas tutorial</a> has more explanation, examples, and resources, as well.</p>
 
@@ -274,17 +275,6 @@ ctx.stroke();
  <dd>Returns an object containing the actual context attributes. Context attributes can be requested with {{domxref("HTMLCanvasElement.getContext()")}}.</dd>
 </dl>
 
-<h3 id="Hit_regions">Hit regions</h3>
-
-<dl>
- <dt>{{domxref("CanvasRenderingContext2D.addHitRegion()")}} {{experimental_inline}}</dt>
- <dd>Adds a hit region to the canvas.</dd>
- <dt>{{domxref("CanvasRenderingContext2D.removeHitRegion()")}} {{experimental_inline}}</dt>
- <dd>Removes the hit region with the specified <code>id</code> from the canvas.</dd>
- <dt>{{domxref("CanvasRenderingContext2D.clearHitRegions()")}} {{experimental_inline}}</dt>
- <dd>Removes all hit regions from the canvas.</dd>
-</dl>
-
 <h3 id="Filters">Filters</h3>
 
 <dl>
@@ -388,24 +378,11 @@ ctx.stroke();
 
 <h2 id="Specifications">Specifications</h2>
 
-<table class="standard-table">
- <tbody>
-  <tr>
-   <th scope="col">Specification</th>
-   <th scope="col">Status</th>
-   <th scope="col">Comment</th>
-  </tr>
-  <tr>
-   <td>{{SpecName('HTML WHATWG', "#2dcontext", "CanvasRenderingContext2D")}}</td>
-   <td>{{Spec2('HTML WHATWG')}}</td>
-   <td></td>
-  </tr>
- </tbody>
-</table>
+{{Specifications}}
 
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 
-<p>{{Compat("api.CanvasRenderingContext2D")}}</p>
+<p>{{Compat}}</p>
 
 <h2 id="See_also">See also</h2>
 

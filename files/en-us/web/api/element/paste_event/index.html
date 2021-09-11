@@ -6,10 +6,11 @@ tags:
   - Event
   - NeedsUpdate
   - Reference
+browser-compat: api.Element.paste_event
 ---
 <div>{{APIRef}}</div>
 
-<p><span class="seoSummary">The <strong><code>paste</code></strong> event is fired when the user has initiated a "paste" action through the browser's user interface.</span></p>
+<p>The <strong><code>paste</code></strong> event is fired when the user has initiated a "paste" action through the browser's user interface.</p>
 
 <table class="properties">
  <tbody>
@@ -49,10 +50,7 @@ tags:
 <pre class="brush: html">&lt;div class="source" contenteditable="true"&gt;Try copying text from this box...&lt;/div&gt;
 &lt;div class="target" contenteditable="true"&gt;...and pasting it into this one&lt;/div&gt;</pre>
 
-<div class="hidden">
-<h4 id="CSS">CSS</h4>
-
-<pre class="brush: css">div.source, div.target {
+<pre class="brush: css hidden">div.source, div.target {
     border: 1px solid gray;
     margin: .5rem;
     padding: .5rem;
@@ -60,7 +58,6 @@ tags:
     background-color: #e9eef1;
 }
 </pre>
-</div>
 
 <h4 id="JS">JS</h4>
 
@@ -85,24 +82,11 @@ target.addEventListener('paste', (event) =&gt; {
 
 <h2 id="Specifications">Specifications</h2>
 
-<table class="standard-table">
- <thead>
-  <tr>
-   <th scope="col">Specification</th>
-   <th scope="col">Status</th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>{{SpecName('Clipboard API', '#clipboard-event-paste')}}</td>
-   <td>{{Spec2('Clipboard API')}}</td>
-  </tr>
- </tbody>
-</table>
+{{Specifications}}
 
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 
-<p>{{Compat("api.Element.paste_event")}}</p>
+<p>{{Compat}}</p>
 
 <h2 id="See_also">See also</h2>
 

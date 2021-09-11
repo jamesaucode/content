@@ -7,6 +7,7 @@ tags:
   - Experimental
   - Method
   - TextDecoder
+browser-compat: api.TextDecoder.decode
 ---
 <div>{{APIRef("Encoding API")}}{{SeeCompatTable}}</div>
 
@@ -34,7 +35,7 @@ tags:
   <dd>Is a <code>TextDecodeOptions</code> dictionary with the property:
     <dl>
       <dt><code>stream</code></dt>
-      <dd>A {{DOMxRef("Boolean")}} flag indicating that additional data will follow in
+      <dd>A boolean flag indicating that additional data will follow in
         subsequent calls to decode(). Set to true if processing the data in chunks, and
         false for the final chunk or if the data is not chunked. It defaults to false.
       </dd>
@@ -67,24 +68,11 @@ document.getElementById('decoded-value').textContent = str;</pre>
 
 <h2 id="Specifications">Specifications</h2>
 
-<table class="standard-table">
-  <tbody>
-    <tr>
-      <th scope="col">Specification</th>
-      <th scope="col">Status</th>
-      <th scope="col">Comment</th>
-    </tr>
-    <tr>
-      <td>{{SpecName("Encoding", "#dom-textdecoder-decode", "TextDecoder.decode()")}}</td>
-      <td>{{Spec2("Encoding")}}</td>
-      <td>Initial definition.</td>
-    </tr>
-  </tbody>
-</table>
+{{Specifications}}
 
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 
-<p>{{Compat("api.TextDecoder.decode")}}</p>
+<p>{{Compat}}</p>
 
 <h2 id="See_also">See also</h2>
 

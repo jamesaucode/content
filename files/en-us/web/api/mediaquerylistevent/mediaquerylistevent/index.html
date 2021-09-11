@@ -1,5 +1,5 @@
 ---
-title: MediaQueryListEvent.MediaQueryListEvent()
+title: MediaQueryListEvent()
 slug: Web/API/MediaQueryListEvent/MediaQueryListEvent
 tags:
   - API
@@ -8,23 +8,21 @@ tags:
   - Media Queries
   - MediaQueryListEvent
   - Reference
+browser-compat: api.MediaQueryListEvent.MediaQueryListEvent
 ---
 <p>{{APIRef("CSSOM")}}</p>
 
-<p>The <strong><code>MediaQueryListEvent</code></strong> constructor creates a new
+<p>The <strong><code>MediaQueryListEvent()</code></strong> constructor creates a new
   <code>MediaQueryListEvent</code> instance.</p>
 
 <h2 id="Syntax">Syntax</h2>
 
-<pre
-  class="brush: js">var <em>myMqlEvent</em> = <em>new MediaQueryListEvent(init);</em></pre>
+<pre class="brush: js">var <em>myMqlEvent</em> = <em>new MediaQueryListEvent(init);</em></pre>
 
 <h3 id="Parameters">Parameters</h3>
 
 <dl>
-  <dt>
-    <p>init</p>
-  </dt>
+  <dt><code>init</code></dt>
   <dd>
     <p>An init object that defines features of the new object instance. The available
       properties are:</p>
@@ -40,32 +38,18 @@ tags:
 <h2 id="Examples">Examples</h2>
 
 <pre
-  class="brush: js line-numbers language-js">var media = '(max-width: 600px)';
+  class="brush: js">var media = '(max-width: 600px)';
 var matches = true;
 
 var myMediaQueryListEvent = new MediaQueryListEvent({media, matches});</pre>
 
 <h2 id="Specifications">Specifications</h2>
 
-<table class="standard-table">
-  <tbody>
-    <tr>
-      <th>Specification</th>
-      <th>Status</th>
-      <th>Comment</th>
-    </tr>
-    <tr>
-      <td>{{SpecName("CSSOM View", "#dom-mediaquerylistevent-mediaquerylistevent",
-        "MediaQueryListEvent()")}}</td>
-      <td>{{Spec2("CSSOM View")}}</td>
-      <td>Initial definition</td>
-    </tr>
-  </tbody>
-</table>
+{{Specifications}}
 
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 
-<p>{{Compat("api.MediaQueryListEvent.MediaQueryListEvent")}}</p>
+<p>{{Compat}}</p>
 
 <h2 id="See_also">See also</h2>
 

@@ -9,6 +9,7 @@ tags:
   - Method
   - Reference
   - Response
+browser-compat: api.Response.error
 ---
 <div>{{APIRef("Fetch")}}</div>
 
@@ -17,15 +18,15 @@ tags:
 </p>
 
 <div class="note">
-  <p><strong>Note</strong>: This is mainly relevant to <a
+  <p><strong>Note:</strong> This is mainly relevant to <a
       href="/en-US/docs/Web/API/Service_Worker_API">ServiceWorkers</a>; the error method is
     used to return an error if you so wish it. An error response has its
     {{domxref("Response.type","type")}} set to <code>error</code>.</p>
 </div>
 
 <div class="note">
-  <p><strong>Note</strong>: An "error" <code>Response</code> never really gets exposed to
-    script: such a response to a {{domxref("WindowOrWorkerGlobalScope/fetch","fetch()")}} would reject
+  <p><strong>Note:</strong> An "error" <code>Response</code> never really gets exposed to
+    script: such a response to a {{domxref("fetch()")}} would reject
     the promise.</p>
 </div>
 
@@ -48,24 +49,11 @@ tags:
 
 <h2 id="Specifications">Specifications</h2>
 
-<table class="standard-table">
-  <tbody>
-    <tr>
-      <th scope="col">Specification</th>
-      <th scope="col">Status</th>
-      <th scope="col">Comment</th>
-    </tr>
-    <tr>
-      <td>{{SpecName('Fetch','#dom-response-error','error()')}}</td>
-      <td>{{Spec2('Fetch')}}</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+{{Specifications}}
 
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 
-<p>{{Compat("api.Response.error")}}</p>
+<p>{{Compat}}</p>
 
 <h2 id="See_also">See also</h2>
 

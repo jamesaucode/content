@@ -7,13 +7,14 @@ tags:
 - CanvasRenderingContext2D
 - Method
 - Reference
+browser-compat: api.CanvasRenderingContext2D.arc
 ---
 <div>{{APIRef}}</div>
 
-<p><span class="seoSummary">The
-    <code><strong>CanvasRenderingContext2D</strong></code><strong><code>.arc()</code></strong>
+<p>The
+    <strong><code>CanvasRenderingContext2D.arc()</code></strong>
     method of the <a href="/en-US/docs/Web/API/CanvasRenderingContext2D">Canvas 2D API
-    </a>adds a circular arc to the current sub-path.</span></p>
+    </a>adds a circular arc to the current sub-path.</p>
 
 <h2 id="Syntax">Syntax</h2>
 
@@ -40,7 +41,7 @@ tags:
   <dt><code>endAngle</code></dt>
   <dd>The angle at which the arc ends in radians, measured from the positive x-axis.</dd>
   <dt><code>counterclockwise</code> {{optional_inline}}</dt>
-  <dd>An optional {{jsxref("Boolean")}}. If <code>true</code>, draws the arc
+  <dd>An optional boolean value. If <code>true</code>, draws the arc
     counter-clockwise between the start and end angles. The default is <code>false</code>
     (clockwise).</dd>
 </dl>
@@ -62,7 +63,7 @@ tags:
   make a full circle, the arc begins at an angle of 0 radians (0<strong>°</strong>), and
   ends at an angle of 2π radians (360<strong>°</strong>).</p>
 
-<pre class="brush: js; highlight:[5]">const canvas = document.querySelector('canvas');
+<pre class="brush: js;">const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
 ctx.beginPath();
@@ -78,14 +79,8 @@ ctx.stroke();
 
 <p>This example draws various shapes to show what is possible with <code>arc()</code>.</p>
 
-<div class="hidden">
-  <h4 id="HTML_2">HTML</h4>
-
-  <pre class="brush: html">&lt;canvas width="150" height="200"&gt;&lt;/canvas&gt;
+<pre class="brush: html hidden">&lt;canvas width="150" height="200"&gt;&lt;/canvas&gt;
 </pre>
-
-  <h4 id="JavaScript_2">JavaScript</h4>
-</div>
 
 <pre class="brush: js">const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
@@ -114,29 +109,15 @@ for (let i = 0; i &lt;= 3; i++) {
 <h4 id="Result_2">Result</h4>
 
 <p>{{ EmbedLiveSample('Different_shapes_demonstrated', 160, 210,
-  "https://mdn.mozillademos.org/files/204/Canvas_arc.png") }}</p>
+  "canvas_arc.png") }}</p>
 
 <h2 id="Specifications">Specifications</h2>
 
-<table class="standard-table">
-  <tbody>
-    <tr>
-      <th scope="col">Specification</th>
-      <th scope="col">Status</th>
-      <th scope="col">Comment</th>
-    </tr>
-    <tr>
-      <td>{{SpecName('HTML WHATWG', "scripting.html#dom-context-2d-arc",
-        "CanvasRenderingContext2D.arc")}}</td>
-      <td>{{Spec2('HTML WHATWG')}}</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+{{Specifications}}
 
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 
-<p>{{Compat("api.CanvasRenderingContext2D.arc")}}</p>
+<p>{{Compat}}</p>
 
 <h2 id="See_also">See also</h2>
 

@@ -8,13 +8,14 @@ tags:
 - Property
 - Read-only
 - Web
+browser-compat: api.HTMLMediaElement.buffered
 ---
 <div>{{APIRef("HTML DOM")}}</div>
 
 <p>The <strong><code>buffered</code></strong> read-only property of {{domxref("HTMLMediaElement")}} objects returns a new static <a href="/en-US/docs/Web/API/TimeRanges#normalized_timeranges_objects">normalized <code>TimeRanges</code> object</a> that represents the ranges of the media resource, if any, that the user agent has buffered at the moment the <code>buffered</code> property is accessed.</p>
 
-<div class="note"><strong>Note:</strong> This feature is not available in <a
-    href="/en-US/docs/Web/API/Web_Workers_API">Web Workers</a>.</div>
+<div class="note"><p><strong>Note:</strong> This feature is not available in <a
+    href="/en-US/docs/Web/API/Web_Workers_API">Web Workers</a>.</p></div>
 
 <h2 id="Syntax">Syntax</h2>
 
@@ -33,29 +34,11 @@ console.log(obj.buffered); // TimeRanges { length: 0 }
 
 <h2 id="Specifications">Specifications</h2>
 
-<table class="standard-table">
-  <tbody>
-    <tr>
-      <th scope="col">Specification</th>
-      <th scope="col">Status</th>
-      <th scope="col">Comment</th>
-    </tr>
-    <tr>
-      <td>{{SpecName('HTML WHATWG', "media.html#dom-media-buffered", "buffered")}}</td>
-      <td>{{Spec2('HTML WHATWG')}}</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>{{SpecName('Media Source Extensions','#htmlmediaelement-extensions')}}</td>
-      <td>{{Spec2('Media Source Extensions')}}</td>
-      <td>Specifies a new algorithm for returning the buffered ranges of an element whose source is a {{domxref("MediaSource")}} object.</td>
-    </tr>
-  </tbody>
-</table>
+{{Specifications}}
 
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 
-<p>{{Compat("api.HTMLMediaElement.buffered")}}</p>
+<p>{{Compat}}</p>
 
 <h2 id="See_also">See also</h2>
 

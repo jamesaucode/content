@@ -13,14 +13,15 @@ tags:
   - Reference
   - Video
   - requestData
+browser-compat: api.MediaRecorder.requestData
 ---
 <p>{{APIRef("MediaStream Recording")}}</p>
 
-<p><span class="seoSummary">The <strong><code>MediaRecorder.requestData()</code></strong>
+<p>The <strong><code>MediaRecorder.requestData()</code></strong>
     method (part of the <a href="/en-US/docs/Web/API/MediaStream_Recording_API">MediaRecorder
       API</a>) is used to raise a {{domxref("dataavailable")}} event containing a
     {{domxref("Blob")}} object of the captured media as it was when the method was
-    called.</span> This can then be grabbed and manipulated as you wish.</p>
+    called. This can then be grabbed and manipulated as you wish.</p>
 
 <p>When the <code>requestData()</code> method is invoked, the browser queues a task that
   runs the following steps:</p>
@@ -61,25 +62,11 @@ tags:
 
 <h2 id="Specifications">Specifications</h2>
 
-<table class="standard-table">
-  <tbody>
-    <tr>
-      <th scope="col">Specification</th>
-      <th scope="col">Status</th>
-      <th scope="col">Comment</th>
-    </tr>
-    <tr>
-      <td>{{SpecName("MediaStream Recording", "#dom-mediarecorder-requestdata",
-        "MediaRecorder.requestData()")}}</td>
-      <td>{{Spec2("MediaStream Recording")}}</td>
-      <td>Initial definition</td>
-    </tr>
-  </tbody>
-</table>
+{{Specifications}}
 
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 
-<p>{{Compat("api.MediaRecorder.requestData")}}</p>
+<p>{{Compat}}</p>
 
 <h2 id="See_also">See also</h2>
 

@@ -12,6 +12,7 @@ tags:
   - Reference
   - Video
   - endOfStream
+browser-compat: api.MediaSource.endOfStream
 ---
 <div>{{APIRef("Media Source Extensions")}}{{SeeCompatTable}}</div>
 
@@ -53,7 +54,7 @@ tags:
 
 <h3 id="Exceptions">Exceptions</h3>
 
-<table class="standard-table">
+<table class="no-markdown">
   <thead>
     <tr>
       <th scope="col">Exception</th>
@@ -80,7 +81,7 @@ tags:
     the source</a> for further investigation.)</p>
 
 <pre
-  class="brush: js  language-js">var assetURL = 'frag_bunny.mp4';
+  class="brush: js ">var assetURL = 'frag_bunny.mp4';
 // Need to be specific for Blink regarding codecs
 // ./mp4info frag_bunny.mp4 | grep Codec
 var mimeCodec = 'video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;';
@@ -110,25 +111,11 @@ function sourceOpen (_) {
 
 <h2 id="Specifications">Specifications</h2>
 
-<table class="standard-table">
-  <tbody>
-    <tr>
-      <th scope="col">Specification</th>
-      <th scope="col">Status</th>
-      <th scope="col">Comment</th>
-    </tr>
-    <tr>
-      <td>{{SpecName('Media Source Extensions', '#dom-mediasource-endofstream',
-        'endOfStream()')}}</td>
-      <td>{{Spec2('Media Source Extensions')}}</td>
-      <td>Initial definition.</td>
-    </tr>
-  </tbody>
-</table>
+{{Specifications}}
 
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 
-<p>{{Compat("api.MediaSource.endOfStream")}}</p>
+<p>{{Compat}}</p>
 
 <h2 id="See_also">See also</h2>
 

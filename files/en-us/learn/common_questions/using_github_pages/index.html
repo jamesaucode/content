@@ -44,7 +44,7 @@ tags:
 
 <p>The best way to upload your code to Github is via the command line — this is a window where you type in commands to do things like create files and run programs, rather than clicking inside a user interface. It will look something like this:</p>
 
-<p><img alt="" src="command-line.png" style="display: block; margin: 0px auto;"></p>
+<p><img alt="" src="command-line.png"></p>
 
 <div class="note">
 <p><strong>Note</strong>: You could also consider using a <a href="https://git-scm.com/downloads/guis">Git graphical user interface</a> to do the same work, if you feel uncomfortable with the command line.</p>
@@ -66,9 +66,9 @@ tags:
  <li>Next, you need to create a new repo for your files to go in. Click Plus (+) in the top right of the GitHub homepage, then choose <em>New Repository</em>.</li>
  <li>On this page, in the <em>Repository name</em> box, enter a name for your code repository, for example <em>my-repository</em>.</li>
  <li>Also fill in a description to say what your repository is going to contain. Your screen should look like this:<br>
-  <img alt="" src="create-new-repo.png" style="display: block; margin: 0px auto;"></li>
+  <img alt="" src="create-new-repo.png"></li>
  <li>Click <em>Create repository</em>; this should bring you to the following page: <br>
-  <img alt="" src="github-repo.png" style="display: block; margin: 0px auto;"></li>
+  <img alt="" src="github-repo.png"></li>
 </ol>
 
 <h3 id="Uploading_your_files_to_GitHub">Uploading your files to GitHub</h3>
@@ -83,9 +83,9 @@ tags:
 git commit -m 'adding my files to my repository'</pre>
  </li>
  <li>Finally, push the code up to GitHub by going to the GitHub web page you're on and entering into the terminal the second of the two commands we saw the <em>…or push an existing repository from the command line</em> section:
-  <pre class="brush: bash">git push -u origin master</pre>
+  <pre class="brush: bash">git push -u origin main</pre>
  </li>
- <li>Now you need to turn GitHub pages on for your repository. To do this, from the homepage of your repository choose <em>Settings</em>, then scroll down until  you get to the <em>GitHub Pages</em> section. Underneath <em>Source</em>, choose Master branch. The page should refresh.</li>
+ <li>Now you need to turn GitHub pages on for your repository. To do this, from the homepage of your repository choose <em>Settings</em>, then select <em>Pages</em> from the sidebar on the left. Underneath <em>Source</em>, choose the "main" branch. The page should refresh.</li>
  <li>Go to the GitHub Pages section again, and you should see a line of the form "Your site is ready to be published at https://xxxxxx."</li>
  <li>If you click on this URL, you should go to a live version of your example, provided the home page is called <code>index.html</code> — it goes to this entry point by default. If your site's entry point is called something else, for example <code>myPage.html</code>, you'll need to go to <code>https://xxxxxx/myPage.html</code>.</li>
 </ol>

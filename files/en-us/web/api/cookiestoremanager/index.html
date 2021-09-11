@@ -6,10 +6,11 @@ tags:
   - Interface
   - Reference
   - CookieStoreManager
+browser-compat: api.CookieStoreManager
 ---
 <div>{{securecontext_header}}{{DefaultAPISidebar("Cookie Store")}}</div>
 
-<p class="summary">The <strong><code>CookieStoreManager</code></strong> interface of the {{domxref('Cookie Store')}} API allows service workers to subscribe to events for cookie changes. By using the {{domxref("CookieStoreManager.subscribe()","subscribe()")}} method a particular service worker registration can indicate that it is interested in change events.</p>
+<p>The <strong><code>CookieStoreManager</code></strong> interface of the {{domxref('Cookie Store')}} API allows service workers to subscribe to events for cookie changes. By using the {{domxref("CookieStoreManager.subscribe()","subscribe()")}} method a particular service worker registration can indicate that it is interested in change events.</p>
 
 <p>A <code>CookieStoreManager</code> has an associated {{domxref("ServiceWorkerRegistration")}}. Each service worker registration has a cookie change subscription list, which is a list of cookie change subscriptions each containing a name and url. The methods in this interface allow the service worker to add and remove subscriptions from this list, and to get a list of all subscriptions.</p>
 
@@ -39,23 +40,8 @@ await registration.cookies.subscribe(subscriptions);</pre>
 
 <h2 id="Specifications">Specifications</h2>
 
-<table class="standard-table">
-  <tbody>
-   <tr>
-    <th scope="col">Specification</th>
-    <th scope="col">Status</th>
-    <th scope="col">Comment</th>
-   </tr>
-   <tr>
-    <td>{{SpecName('Cookie Store API','#CookieStoreManager','CookieStoreManager')}}</td>
-    <td>{{Spec2('Cookie Store API')}}</td>
-    <td>Initial definition.</td>
-   </tr>
-  </tbody>
- </table>
+{{Specifications}}
 
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 
-<div class="hidden">The compatibility table in this page is generated from structured data. If you'd like to contribute to the data, please check out <a href="https://github.com/mdn/browser-compat-data">https://github.com/mdn/browser-compat-data</a> and send us a pull request.</div>
-
-<p>{{Compat("api.CookieStoreManager")}}</p>
+<p>{{Compat}}</p>

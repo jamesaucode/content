@@ -7,14 +7,14 @@ tags:
   - Reference
   - isScript
   - TrustedTypePolicyFactory
+browser-compat: api.TrustedTypePolicyFactory.isScript
 ---
 <div>{{DefaultAPISidebar("Trusted Types API")}}</div>
 
-<p class="summary">The <strong><code>isScript()</code></strong> method of the {{domxref("TrustedTypePolicyFactory")}} interface returns true if it is passed a valid {{domxref("TrustedScript")}} object.</p>
+<p>The <strong><code>isScript()</code></strong> method of the {{domxref("TrustedTypePolicyFactory")}} interface returns true if it is passed a valid {{domxref("TrustedScript")}} object.</p>
 
 <div class="notecard note">
-  <h4>Note:</h4>
-  <p>The purpose of the functions <code>isScript()</code>, {{domxref("TrustedTypePolicyFactory.isHTML","isHTML()")}}, and {{domxref("TrustedTypePolicyFactory.isScriptURL","isScriptURL()")}} is to check if the object is a valid TrustedType object, created by a configured policy.</p>
+  <p><strong>Note:</strong> The purpose of the functions <code>isScript()</code>, {{domxref("TrustedTypePolicyFactory.isHTML","isHTML()")}}, and {{domxref("TrustedTypePolicyFactory.isScriptURL","isScriptURL()")}} is to check if the object is a valid TrustedType object, created by a configured policy.</p>
 </div>
 
 <h2 id="Syntax">Syntax</h2>
@@ -46,23 +46,8 @@ console.log(trustedTypes.isScript("eval('2 + 2')")); // false</pre>
 
 <h2 id="Specifications">Specifications</h2>
 
-<table class="standard-table">
-  <tbody>
-   <tr>
-    <th scope="col">Specification</th>
-    <th scope="col">Status</th>
-    <th scope="col">Comment</th>
-   </tr>
-   <tr>
-    <td>{{SpecName('Trusted Types','#dom-trustedtypepolicyfactory-isscript','TrustedTypePolicyFactory.isScript()')}}</td>
-    <td>{{Spec2('Trusted Types')}}</td>
-    <td>Initial definition.</td>
-   </tr>
-  </tbody>
- </table>
+{{Specifications}}
 
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 
-<div class="hidden">The compatibility table in this page is generated from structured data. If you'd like to contribute to the data, please check out <a href="https://github.com/mdn/browser-compat-data">https://github.com/mdn/browser-compat-data</a> and send us a pull request.</div>
-
-<p>{{Compat("api.TrustedTypePolicyFactory.isScript")}}</p>
+<p>{{Compat}}</p>

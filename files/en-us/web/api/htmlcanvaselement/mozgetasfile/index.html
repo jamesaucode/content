@@ -9,9 +9,10 @@ tags:
 - Method
 - Mozilla
 - Non-standard
-- Obsolete
 - Reference
 - mozGetAsFile
+- Deprecated
+browser-compat: api.HTMLCanvasElement.mozGetAsFile
 ---
 <div>{{APIRef("Canvas API")}} {{Deprecated_Header}} {{non-standard_header}}</div>
 
@@ -62,7 +63,7 @@ tags:
     URL using the {{domxref("FileReader.readAsDataURL", "readAsDataURL()")}} method. Then
     a new {{HTMLElement("img")}} element is created using the new data URL.</p>
 
-  <pre class="brush: js;highlight:[17]">function draw() {
+  <pre class="brush: js;">function draw() {
   var canvas = document.getElementById('canvas');
   var ctx = canvas.getContext('2d');
 
@@ -98,4 +99,4 @@ window.addEventListener('load', draw);</pre>
 
 <h2 id="Browser_compatibility">Browser compatibility</h2>
 
-<p>{{Compat("api.HTMLCanvasElement.mozGetAsFile")}}</p>
+<p>{{Compat}}</p>
