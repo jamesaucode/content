@@ -22,7 +22,9 @@ The **`IDBTransaction`** interface of the [IndexedDB API](/en-US/docs/Web/API/In
 Transactions are started when the transaction is created, not when the first request is placed; for example consider this:
 
 ```js
+// open the first read/write transaction with the object store "foo"
 var trans1 = db.transaction("foo", "readwrite");
+// open the second read/write transaction with the object store "foo"
 var trans2 = db.transaction("foo", "readwrite");
 var objectStore2 = trans2.objectStore("foo")
 var objectStore1 = trans1.objectStore("foo")
